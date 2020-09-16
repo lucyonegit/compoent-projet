@@ -1,0 +1,44 @@
+{
+  "name": "arg-component",
+  "version": "1.0.0",
+  "description": "argrace component lib",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "node webpack/webpack.build.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "lucy",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/runtime": "^7.7.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-polyfill": "^6.26.0",
+    "chalk": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "rimraf": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.2.0",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {},
+  "keywords": [
+    "arg-component",
+    "vueui"
+  ]
+}
